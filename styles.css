@@ -15,11 +15,13 @@
 }
 body {
   margin-top: 100px !important;
+  background-size: 3000px !important;
+  background: URL(/images/backgrounds/annie-spratt-zu-OdjJRa0w-unsplash.jpg);
 }
-h1,
+img h1,
 h2,
 h3 {
-  text-align: center;
+  text-align: center !important;
   margin: 0;
 }
 
