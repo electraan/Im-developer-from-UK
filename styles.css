@@ -100,9 +100,9 @@ p {
     display: none;
   }
 }
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
   .yoga.yogurt {
-    color: antiquewhite !important;
+    color: black !important;
   }
 }
 .navigation-links a {
