@@ -15,7 +15,7 @@
 }
 body {
   margin-top: 100px !important;
-  background-size: 2500px 2000px !important;
+  background-size: 3400px 2500px !important;
   background: URL(/images/backgrounds/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
 }
 img h1,
@@ -94,6 +94,11 @@ p {
   }
   .img-fluid.index {
     display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .yoga.yogurt {
+    color: antiquewhite !important;
   }
 }
 .navigation-links a {
