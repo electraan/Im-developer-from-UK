@@ -82,6 +82,9 @@ p {
     color: #f5f2fe;
     text-align: center;
   }
+  .about-link {
+    color: white !important;
+  }
   .primary-link {
     display: block;
     text-align: center;
