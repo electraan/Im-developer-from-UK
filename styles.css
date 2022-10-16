@@ -15,7 +15,7 @@
 }
 body {
   margin-top: 100px !important;
-  background-size: 3400px 2500px !important;
+  background-size: 2100px 1500px !important;
   background: URL(/images/backgrounds/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
 }
 img h1,
@@ -67,15 +67,12 @@ p {
 .yoga.weather {
   color: antiquewhite;
 }
-.yoga.yogurt {
-  color: antiquewhite;
-}
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 590px) {
   h1 {
     font-size: 38px !important;
     text-align: center;
@@ -98,11 +95,6 @@ p {
   }
   .img-fluid.index {
     display: none;
-  }
-}
-@media (min-width: 1400px) {
-  .yoga.yogurt {
-    color: black !important;
   }
 }
 .navigation-links a {
