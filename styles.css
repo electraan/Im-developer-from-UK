@@ -56,6 +56,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  text-decoration: solid;
 }
 .col-6 {
   justify-content: space-between;
@@ -64,6 +65,9 @@ p {
   text-align: left;
 }
 .yoga.weather {
+  color: antiquewhite;
+}
+.yoga.yogurt {
   color: antiquewhite;
 }
 .navigation-links {
@@ -96,7 +100,7 @@ p {
     display: none;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .yoga.yogurt {
     color: antiquewhite !important;
   }
