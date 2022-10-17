@@ -87,6 +87,10 @@ p {
     display: block;
     margin-top: -50px !important;
   }
+  div h2.yoga {
+    display: block;
+    margin-top: -30px !important;
+  }
   .about-link {
     color: white !important;
   }
