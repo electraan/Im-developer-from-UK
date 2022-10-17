@@ -83,6 +83,10 @@ p {
     color: #f5f2fe;
     text-align: center;
   }
+  div h2.yogurt {
+    display: block;
+    margin-top: -50px !important;
+  }
   .about-link {
     color: white !important;
   }
@@ -91,6 +95,9 @@ p {
     margin: 0 auto;
     width: 190px;
     text-align: center;
+  }
+  .primary-link.yogurt {
+    margin-bottom: 20px;
   }
   p {
     color: antiquewhite;
