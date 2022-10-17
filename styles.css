@@ -88,6 +88,8 @@ p {
   }
   .primary-link {
     display: block;
+    margin: 0 auto;
+    width: 190px;
     text-align: center;
   }
   p {
