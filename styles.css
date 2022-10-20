@@ -2,6 +2,7 @@
   --primary-color: #77769b;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-main: "Poppins", sans-serif;
 }
 
 .primary-link {
@@ -75,6 +76,7 @@ p {
 @media (max-width: 590px) {
   h1 {
     font-size: 38px !important;
+    font-family: var(--font-main);
     text-align: center;
     color: #f5f2fe;
   }
