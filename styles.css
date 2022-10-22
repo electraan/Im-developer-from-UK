@@ -117,6 +117,7 @@ p {
   }
   .d-flex i {
     color: var(--secondary-color) !important;
+    font-size: 30px !important;
   }
 }
 .navigation-links a {
@@ -169,6 +170,7 @@ p {
 .d-flex i {
   color: black;
   margin: 30px;
+  font-size: 40px;
 }
 img {
   opacity: 0.8;
