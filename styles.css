@@ -28,6 +28,7 @@ h3 {
 img.myPhoto {
   display: block;
   margin: 0 auto;
+  max-width: 90%;
 }
 h1 {
   font-size: 60px !important;
