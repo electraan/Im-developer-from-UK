@@ -115,6 +115,9 @@ p {
   .img-fluid.index {
     display: none;
   }
+  .d-flex i {
+    color: var(--secondary-color) !important;
+  }
 }
 .navigation-links a {
   margin: 20px;
@@ -154,11 +157,23 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
   font-family: var(--font-main);
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.d-flex i {
+  color: black;
+  margin: 30px;
+}
+img {
+  opacity: 0.8;
+}
+
+img.myPhoto {
+  opacity: 1;
 }
