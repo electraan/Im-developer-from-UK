@@ -25,7 +25,10 @@ h3 {
   text-align: center !important;
   margin: 0;
 }
-
+img.myPhoto {
+  display: block;
+  margin: 0 auto;
+}
 h1 {
   font-size: 60px !important;
   font-weight: 500;
