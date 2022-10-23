@@ -72,9 +72,7 @@ p {
 .yoga {
   text-align: left;
 }
-.yoga.weather {
-  color: antiquewhite;
-}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -89,7 +87,7 @@ p {
   }
   h2 {
     font-size: 28px !important;
-    color: #f5f2fe;
+    color: var(--secondary-color);
     text-align: center;
   }
   div h2.yogurt {
@@ -100,9 +98,7 @@ p {
     display: block;
     margin-top: -30px !important;
   }
-  .about-link {
-    color: white !important;
-  }
+
   .email-link {
     color: white !important;
   }
@@ -115,8 +111,9 @@ p {
   .primary-link.yogurt {
     margin-bottom: 20px;
   }
+
   p {
-    color: antiquewhite !important;
+    color: white !important;
   }
   p.d-flex {
     font-size: 18px !important;
@@ -149,6 +146,7 @@ p {
 
 .about-link {
   color: var(--primary-color);
+  color: white;
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
 }
