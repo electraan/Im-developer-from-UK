@@ -19,6 +19,7 @@ body {
   background-size: 2100px 1500px !important;
   background: URL(/images/backgrounds/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
 }
+
 img h1,
 h2,
 h3 {
@@ -115,6 +116,7 @@ p {
   }
   p.d-flex {
     font-size: 18px !important;
+    margin: 0 auto !important;
   }
   .img-fluid.index {
     display: none;
