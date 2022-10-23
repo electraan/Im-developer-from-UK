@@ -103,6 +103,9 @@ p {
   .about-link {
     color: white !important;
   }
+  .email-link {
+    color: white !important;
+  }
   .primary-link {
     display: block;
     margin: 0 auto;
