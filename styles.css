@@ -2,7 +2,7 @@
   --primary-color: #77769b;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --font-main: "Poppins", sans-serif;
+  --font-main: "Fuzzy Bubbles", cursive;
 }
 
 .primary-link {
@@ -16,8 +16,9 @@
 }
 body {
   margin-top: 100px !important;
-  background-size: 2100px 1500px !important;
-  background: URL(/images/backgrounds/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
+  font-family: var(--font-main) !important;
+  background-size: 2900px 2150px !important;
+  background: URL(/images/backgrounds/annie-spratt-Zxz01pNWGlE-unsplash.jpg);
 }
 
 img h1,
@@ -146,6 +147,7 @@ p {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .homepage-link {
@@ -193,5 +195,5 @@ img.myPhoto {
 }
 p.d-flex {
   font-size: 24px;
-  color: var(--primary-color);
+  opacity: 0.8;
 }
