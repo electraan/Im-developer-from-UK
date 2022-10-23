@@ -98,10 +98,6 @@ p {
     display: block;
     margin-top: -30px !important;
   }
-
-  .email-link {
-    color: white !important;
-  }
   .primary-link {
     display: block;
     margin: 0 auto;
@@ -111,7 +107,6 @@ p {
   .primary-link.yogurt {
     margin-bottom: 20px;
   }
-
   p {
     color: white !important;
   }
@@ -169,7 +164,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: white;
   font-size: 20px;
   text-decoration: none;
   font-family: var(--font-main);
