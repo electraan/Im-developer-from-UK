@@ -115,9 +115,12 @@ p {
   .img-fluid.index {
     display: none;
   }
-  .d-flex i {
+  footer .d-flex i {
     color: var(--secondary-color) !important;
     font-size: 30px !important;
+  }
+  footer .d-flex i:hover {
+    color: var(--primary-color) !important;
   }
 }
 .navigation-links a {
@@ -167,10 +170,13 @@ p {
   text-decoration: underline;
 }
 
-.d-flex i {
+footer .d-flex i {
   color: black;
   margin: 30px;
   font-size: 40px;
+}
+footer .d-flex i:hover {
+  color: var(--primary-color);
 }
 img {
   opacity: 0.9;
